@@ -3,10 +3,9 @@ import instaloader
 L = instaloader.Instaloader()
 
 USER = 'ayushsahi'
-PASSWORD = 'M0nk3y10!_Instagram'
+PASSWORD = ''
 following_list = []
 follower_list = []
-test = 'test'
 
 def login() -> None:
     L.login(USER, PASSWORD) 
